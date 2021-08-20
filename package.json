@@ -19,6 +19,7 @@
   "homepage": "https://github.com/rsgilbert/learning-node#readme",
   "dependencies": {
     "chalk": "^4.1.2",
+    "inquirer": "^8.1.2",
     "progress": "^2.0.3"
   }
 }
