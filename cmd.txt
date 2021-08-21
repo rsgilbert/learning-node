@@ -31,3 +31,15 @@ npm outdated
 npm i -g npm-check-updates 
 ncu -u
 npm update 
+
+// Install for production
+npm i --production
+
+
+// Run a command using a different nodejs version
+npx node@10 game 
+npx node@10 -v
+
+// Run code on a github gist 
+npx https://gist.github.com/zkat/4bc19503fe9e9309e2bfaa2c58074d32
+
