@@ -5,3 +5,29 @@ npm root -g
 
 // Run executable package
 npx cowsay
+
+// See versions of all installed npm packages
+npm list
+
+// Or globally
+npm -g list 
+
+// To list only top-level packages
+npm list --depth=0
+
+// To see latest available version 
+npm view cordova version
+
+// install specific version 
+npm i chalk@3.0.0
+
+// See all versions of a package 
+npm view inquirer versions
+
+// See which packages are outdated and require to be updated
+npm outdated
+
+// Update packages to a new major version 
+npm i -g npm-check-updates 
+ncu -u
+npm update 
