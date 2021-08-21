@@ -1,0 +1,7 @@
+// See location of folder with node_modules
+npm root 
+// See location of folder with global node_modules
+npm root -g 
+
+// Run executable package
+npx cowsay

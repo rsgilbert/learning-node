@@ -4,7 +4,9 @@
   "description": "",
   "main": "hello.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-game": "node ./game.js",
+    "start-hello-server": "node ./hello.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   "homepage": "https://github.com/rsgilbert/learning-node#readme",
   "dependencies": {
     "chalk": "^4.1.2",
+    "cowsay": "^1.5.0",
     "inquirer": "^8.1.2",
     "progress": "^2.0.3"
   }
