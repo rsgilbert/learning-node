@@ -1,8 +1,11 @@
 const fs = require('fs')
 
 const getFile = fileName => {
+    console.log('getting', fileName)
     return new Promise((resolve, reject) => {
+        console.log('within promise')
         fs.readFile(fileName, (err, data) => {
+            console.log('ready to respond')
             if(err) {
                 reject(err);
             } else {
@@ -12,6 +15,8 @@ const getFile = fileName => {
     })
 }
 
+
+console.log('going to call getFile')
 getFile('./prom.js')
     .then(data => {
         console.log(data.toString())
@@ -19,6 +24,7 @@ getFile('./prom.js')
     .catch(err => {
         console.trace(err)
     })
+console.log('line 25')
 
 
 
