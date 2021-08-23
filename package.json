@@ -3,22 +3,26 @@
   "version": "1.0.0",
   "description": "",
   "main": "hello.js",
-  "dependencies": {
-    "dotenv": "^10.0.0",
-    "minimist": "^1.2.5"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-game": "node ./game.js",
+    "start-hello-server": "node ./hello.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rsgilbert/learning-node.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rsgilbert/learning-node/issues"
   },
-  "homepage": "https://github.com/rsgilbert/learning-node#readme"
+  "homepage": "https://github.com/rsgilbert/learning-node#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cowsay": "^1.5.0",
+    "inquirer": "^8.1.2",
+    "progress": "^2.0.3"
+  }
 }
