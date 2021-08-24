@@ -1,12 +1,12 @@
 const fs = require('fs')
 
-fs.stat('../', (err, stats) => {
+fs.stat('../', (err, stat) => {
     if(err) {
         console.error(err)
         return
     }
-    console.log(stats.isFile())
-    console.log(stats.isDirectory())
-    console.log(stats.size)
-    console.log(stats)
+    console.log(stat.isFile())
+    console.log(stat.isDirectory())
+    console.log(stat.size)
+    console.log(stat)
 })
